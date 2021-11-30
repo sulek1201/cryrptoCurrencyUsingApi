@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8ECCC6"
+    tools:context=".view.AnalizActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="2,115"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="99dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="TOPLAM"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="117,81"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <TextView
+        android:id="@+id/zenCurrentPriceView2"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="goFirstActivity"
+        android:text="1st"
+        android:textSize="7sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="A.F"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Coin"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="S.F"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="10381"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="4,83"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:id="@+id/aliceCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="51,66"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:id="@+id/blokCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="0,7558"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/boaCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="0,1863"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="0,4258"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="36,81"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/aliceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="ALICE"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/onxCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="MANA"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:id="@+id/blokView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="BLOK"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="TLM"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/cosView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="COS"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="225"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="HARD"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="1600"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="21,25"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="NWC"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/zenCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="0,01165"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="ZEN"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:id="@+id/nwcCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/racaCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="6,767"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="31125"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="72,43"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="777,96"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="330"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/chessCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="IOTX"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:id="@+id/tlmCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="308"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="ONX"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="1,119"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="21423"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="0,1935"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="0,008019"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="586"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/cosCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/mblACurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="0,8083"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="MBL"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="3,44"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="117,81"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:id="@+id/mboxCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="2398"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="11,744232"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="MBOX"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/hardCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="1130"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="2,115"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="RACA"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <TextView
+        android:id="@+id/chessView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="CHESS"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="0,13181"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/atlasView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="ATLAS"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/atlasCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="0,024"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="0,2875"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/manaCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:id="@+id/boaView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="BOA"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/iotxCurrentPriceView"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Adet"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
